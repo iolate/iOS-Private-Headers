@@ -12,7 +12,6 @@
 #ifdef IOKIT_HID_IOHIDEVENT_H
 
 #include <IOKit/hid/IOHIDEvent.h>
-#include "IOHIDEventTypes7.h"
 
 #if __cplusplus
 extern "C" {
