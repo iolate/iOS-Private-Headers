@@ -20,10 +20,10 @@ extern "C" {
     uint64_t IOHIDEventGetSenderID(IOHIDEventRef event);
     void IOHIDEventSetSenderID(IOHIDEventRef event, uint64_t senderID);
     
-    uint64_t IOHIDEventGetAttributeData(IOHIDEventRef event);
-    uint32_t IOHIDEventGetAttributeDataLength(IOHIDEventRef event);
-    
-    void IOHIDEventSetAttributeData(IOHIDEventRef event, uint64_t attributeData);
+    //Wrong
+    //uint64_t IOHIDEventGetAttributeData(IOHIDEventRef event);
+    //uint32_t IOHIDEventGetAttributeDataLength(IOHIDEventRef event);
+    //void IOHIDEventSetAttributeData(IOHIDEventRef event, uint64_t attributeData);
     
 #if __cplusplus
 }
