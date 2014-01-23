@@ -14,7 +14,9 @@
 #ifndef IOHID_EVENT_SYSTEM_CONNECTION_H
 #define IOHID_EVENT_SYSTEM_CONNECTION_H
 
+#ifndef IOKIT_HID_IOHIDEVENT_H
 #include <IOKit/hid/IOHIDEvent.h>
+#endif
 
 #if __cplusplus
 extern "C" {

@@ -9,9 +9,15 @@
  *
  */
 
-#ifdef _IOKIT_HID_IOHIDEVENTTYPES_H
+#ifndef _IOKIT_HID_IOHIDEVENTTYPES_H_7
+#define _IOKIT_HID_IOHIDEVENTTYPES_H_7
 
+#ifndef _IOKIT_HID_IOHIDEVENTTYPES_H
 #include <IOKit/hid/IOHIDEventTypes.h>
+#endif
+
+#define kIOHIDEventTypeGyro        20
+#define kIOHIDEventTypeCompass     21
 
 //Not kIOHIDDigitizerTransducerTypeHand
 #define kIOHIDTransducerTypeHand 3
@@ -25,5 +31,7 @@
 //      kIOHIDEventFieldDigitizerDisplayIntegrated // + 25
 //  };
 #define kIOHIDEventFieldDigitizerDisplayIntegrated 720921
+
+#define kIOHIDDigitizerEventFromEdgeTip 0x00000800
 
 #endif

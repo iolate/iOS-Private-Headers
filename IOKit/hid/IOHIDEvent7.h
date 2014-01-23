@@ -9,9 +9,12 @@
  *
  */
 
-#ifdef IOKIT_HID_IOHIDEVENT_H
+#ifndef IOKIT_HID_IOHIDEVENT_H_7
+#define IOKIT_HID_IOHIDEVENT_H_7
 
+#ifndef IOKIT_HID_IOHIDEVENT_H
 #include <IOKit/hid/IOHIDEvent.h>
+#endif
 
 #if __cplusplus
 extern "C" {
